@@ -15,6 +15,7 @@
     <script language="JavaScript">
         alert("Запустить страницу про котика ?")
         let name = prompt("Как Вас зовут?")
+        let age = prompt("Сколько Вам лет?")
         let right = confirm("Ты всегда прав ?")
        if (right==true)
        {
@@ -24,12 +25,25 @@
         let num = parseInt(prompt("Введите число"));
         let accesAllowed=(num>10)? true:false;
         alert(num + 100);
-
-        
-
-
-
+        switch (age){
+            case'18':
+                alert('Ds совершеннолетний ,продолжаем');
+                break;
+            case '10':
+                alert('Вам нужно учить уроки!');
+                break;
+            case '30':
+                alert('Ложитесь спать завтра на работу!');
+                break;
+            default:
+                alert('Vs незнаем что Вам делать');
+                break;
+        }
     </script>
+
+
+
+    
     <h1 style="color: #4e05f7;"> Манул</h1>
     <p><img src="https://purrlore.ru/wp-content/uploads/2023/09/kot-manul-optimized.jpg" alt="манул" width="300"></p>
     <h2> Характеристики </h2>
